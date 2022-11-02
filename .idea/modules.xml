@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Circle/Circle.iml" filepath="$PROJECT_DIR$/Circle/Circle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Desktop.iml" filepath="$PROJECT_DIR$/Desktop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FruitBuyer/FruitBuyer.iml" filepath="$PROJECT_DIR$/FruitBuyer/FruitBuyer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/InputTest/InputTest.iml" filepath="$PROJECT_DIR$/InputTest/InputTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Inputtest_/Inputtest_.iml" filepath="$PROJECT_DIR$/Inputtest_/Inputtest_.iml" />
+      <module fileurl="file://$PROJECT_DIR$/JAVATEST/JAVATEST.iml" filepath="$PROJECT_DIR$/JAVATEST/JAVATEST.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pakage/Pakage.iml" filepath="$PROJECT_DIR$/Pakage/Pakage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PhoneBook/PhoneBook.iml" filepath="$PROJECT_DIR$/PhoneBook/PhoneBook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/StaticTest/StaticTest.iml" filepath="$PROJECT_DIR$/StaticTest/StaticTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TVUser/TVUser.iml" filepath="$PROJECT_DIR$/TVUser/TVUser.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_0816/_0816.iml" filepath="$PROJECT_DIR$/_0816/_0816.iml" />
+      <module fileurl="file://$PROJECT_DIR$/child/child.iml" filepath="$PROJECT_DIR$/child/child.iml" />
+      <module fileurl="file://$PROJECT_DIR$/enum/enum.iml" filepath="$PROJECT_DIR$/enum/enum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frame_test/gackji.iml" filepath="$PROJECT_DIR$/frame_test/gackji.iml" />
+      <module fileurl="file://$PROJECT_DIR$/square/square.iml" filepath="$PROJECT_DIR$/square/square.iml" />
+      <module fileurl="file://$PROJECT_DIR$/study/study.iml" filepath="$PROJECT_DIR$/study/study.iml" />
+    </modules>
+  </component>
+</project>
