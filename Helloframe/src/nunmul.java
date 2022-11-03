@@ -34,7 +34,7 @@ public class nunmul {
         JLabel lb6 = new JLabel("자기소개");
         p2.add(lb6,BorderLayout.NORTH);
         p2.add(text6,BorderLayout.CENTER);
-        JPanel p3 = new JPanel(new GridLayout(1,2));
+        JPanel p3 = new JPanel(new FlowLayout());
         p3.add(btn1);
         p3.add(btn2);
         p2.add(p3,BorderLayout.SOUTH);
