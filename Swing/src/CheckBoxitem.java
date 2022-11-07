@@ -1,3 +1,4 @@
+//체크박스 관리
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ItemEvent;
