@@ -12,7 +12,6 @@ public class RadioButton extends JFrame{
     public RadioButton(){
         setTitle("라디오버튼 만들기 예제");
         buildGUI();
-
         setSize(250,200);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setVisible(true);

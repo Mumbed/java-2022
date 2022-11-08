@@ -27,7 +27,7 @@ public class HelloEx1_4 {
             public void actionPerformed(ActionEvent e){
                 String name = text.getText();
                 label.setText("Hello, " + name);
-                text.setText("");0
+                text.setText("");
             }
         });
 
