@@ -1,4 +1,3 @@
-// 일반 클래스 사용- 모듈화, 번거로움,
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;

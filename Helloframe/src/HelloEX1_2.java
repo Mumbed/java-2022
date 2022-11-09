@@ -1,15 +1,14 @@
-// 일반 클래스 사용- 모듈화, 번거로움,
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class HelloEx1_2 {
+public class HelloEX1_2 {
 
     private JFrame frame;
     private JTextField text;
     private JLabel label;
-    public HelloEx1_2() {
+    public HelloEX1_2() {
         frame = new JFrame("HelloEx1");
 
         buildGUI();

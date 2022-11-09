@@ -1,8 +1,6 @@
 //체크박스 관리
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ItemEvent;
-import java.awt.event.ItemListener;
 
 
 public class RadioButton extends JFrame{
@@ -23,8 +21,8 @@ public class RadioButton extends JFrame{
     }
     private JPanel createRadioPanel () {
 //이미지 라디오버튼을 만들기 위해 2개의 이미지 객체 생성
-        ImageIcon cherryIcon = new ImageIcon("cherry.png"); // 해제 상태를 나태는 이
-        ImageIcon selectedCherryIcon = new ImageIcon("selectedcherry.jpg");
+        ImageIcon cherryIcon = new ImageIcon("images/cherry.png"); // 해제 상태를 나태는 이
+        ImageIcon selectedCherryIcon = new ImageIcon("images/selectedcherry.png");
 //라디오버튼 3개 생성
         String[] fruit_name = {"사과", "배", "체리"};
         JRadioButton[] fruits = new JRadioButton[3];
