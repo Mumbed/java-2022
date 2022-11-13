@@ -3,11 +3,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class RegMember3 extends JFrame {
+public class RegMember3 {
     JFrame f = new JFrame();
     private JRadioButton []gender = new JRadioButton[2];
-    private JTextArea intr_myself = new JTextArea(9, 22);
     private JCheckBox[] hobby = new JCheckBox[4];
+    private JTextArea intr_myself = new JTextArea(9, 22);
     private JTextField name_textfield = new JTextField("", 8);
     private JTextField id_textfield1 = new JTextField("", 6);
     private JTextField id_textfield2 = new JTextField("", 7);
@@ -42,7 +42,7 @@ public class RegMember3 extends JFrame {
         name_gender_panel.add(name_label);
         name_gender_panel.add(name_textfield);
         name_gender_panel.add(gender_label);
-        name_gender_panel.add(createRadioPanel2());
+        name_gender_panel.add(createRadioPanel());
         id_panel.add(id_label);
         id_panel.add(id_textfield1);
         id_panel.add(bar_label);
@@ -120,28 +120,28 @@ public class RegMember3 extends JFrame {
             @Override
             public void actionPerformed(ActionEvent e8) {
                 // TODO Auto-generated method stub
-                intr_myself.append("영화"+"\n");
+                intr_myself.append("영화"+" ");
             }
         });
         hobby[1].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e9) {
                 // TODO Auto-generated method stub
-                intr_myself.append("음악감상"+"\n");
+                intr_myself.append("음악감상"+" ");
             }
         });
         hobby[2].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e10) {
                 // TODO Auto-generated method stub
-                intr_myself.append("사진"+"\n");
+                intr_myself.append("사진"+" ");
             }
         });
         hobby[3].addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e11) {
                 // TODO Auto-generated method stub
-                intr_myself.append("운동"+"\n");
+                intr_myself.append("운동"+" ");
             }
         });
 
@@ -168,7 +168,7 @@ public class RegMember3 extends JFrame {
         }
         return panel;
     }
-    private JPanel createRadioPanel2() {
+    private JPanel createRadioPanel() {
         String [] gender_name = {"남", "여"};
         for(int i = 0; i< gender_name.length; i++) {
             gender[i] = new JRadioButton(gender_name[i]);
