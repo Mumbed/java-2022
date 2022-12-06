@@ -43,7 +43,7 @@ public class MenuActionEventEx extends JFrame {
                 case "Load" :
                     if(imgLabel.getIcon() != null)
                         return;
-                    imgLabel.setIcon(new ImageIcon("images/img.jpg"));
+                    imgLabel.setIcon(new ImageIcon("img.png"));
                     break;
                 case "Hide" :
                     imgLabel.setVisible(false);
